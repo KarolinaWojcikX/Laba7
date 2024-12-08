@@ -1,5 +1,5 @@
-kurs
-komputer
-myszka
-program
-wisielec
+kurs \n
+komputer \n
+myszka \n
+program \n
+wisielec \n
