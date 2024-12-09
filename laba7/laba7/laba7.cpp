@@ -61,7 +61,7 @@ void saveHighScores(const string& filename, const vector<Score>& scores) {
 
 void displayHighScores(const vector<Score>& scores) {
     cout << "Najlepsze wyniki:" << endl;
-    for (size_t i = 0; i < min(scores.size(), size_t(10)); ++i) {
+    for (size_t i = 0; i < min(scores.size(), size_t(60)); ++i) {
         cout << i + 1 << ". " << scores[i].name << ": " << scores[i].points << endl;
     }
 }
